@@ -1,6 +1,21 @@
 #!/bin/sh
 
 
+export ZLIB_LIBS=/usr/local/dfb_suports/zlib/lib
+export LIBPNG_LIBS=/usr/local/dfb_suports/libpng/lib
+export LIBPNG_CFLAGS=/usr/local/dfb_suports/libpng/include
+export LIBJPEG=/usr/local/dfb_suports/libjpeg/lib
+export LIBJPEG_CFLAGS=/usr/local/dfb_suports/libjpeg/include
+export FREETYPE_LIBS=/usr/local/dfb_suports/freetype/lib
+export FREETYPE_CFLAGS=/usr/local/dfb_suports/freetype/include:/usr/local/dfb_suports/freetype/include/freetype2
+export TSLIB_LIBS=/usr/local/dfb_suports/tslib/build/lib
+export TSLIB_CFLAGS=/usr/local/dfb_suports/tslib/build/include
+export PKG_CONFIG_PREFIX=/usr/local/dfb_suports/libpng/lib/pkgconfig:/usr/local/dfb_suports/freetype/lib/pkgconfig
+export LD_LIBRARY_PATH=$ZLIB_LIBS:$LIBPNG_LIBS:$LIBJPEG:$FREETYPE_LIBS:$TSLIB_LIBS:/usr/local/dfb_suports/libdfb/lib
+export PATH=$PATH:/usr/local/dfb_suports/libdfb/bin
+export TSLIB_CONSOLEDEVICE=none
+export TSLIB_FBDEVICE=/dev/fb0
+export TSLIB_TSDEVICE=/dev/input/event1
 # Start all init scripts in /etc/init.d
 # executing them in numerical order.
 #
