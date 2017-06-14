@@ -1,0 +1,10 @@
+prefix=/usr/local/dfb_suports/libpng
+exec_prefix=/usr/local/dfb_suports/libpng
+libdir=/usr/local/dfb_suports/libpng/lib
+includedir=/usr/local/dfb_suports/libpng/include/libpng15
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.5.8
+Libs: -L${libdir} -lpng15 -lz -lm
+Cflags: -I${includedir}
