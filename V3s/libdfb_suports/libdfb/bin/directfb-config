@@ -3,7 +3,7 @@
 prefix=/usr/local/dfb_suports/libdfb
 exec_prefix=${prefix}
 exec_prefix_set=no
-moduledir=${exec_prefix}/lib/directfb-1.7-0
+moduledir=${exec_prefix}/lib/directfb-1.7-0-pure
 
 usage()
 {

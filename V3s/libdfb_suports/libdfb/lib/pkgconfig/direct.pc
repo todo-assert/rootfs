@@ -1,8 +1,8 @@
 prefix=/usr/local/dfb_suports/libdfb
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
-moduledir=${exec_prefix}/lib/directfb-1.7-0
-moduledirname=directfb-1.7-0
+moduledir=${exec_prefix}/lib/directfb-1.7-0-pure
+moduledirname=directfb-1.7-0-pure
 includedir=${prefix}/include
 
 Name: Direct

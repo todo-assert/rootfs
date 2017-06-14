@@ -38,7 +38,7 @@
 
 
 #define DIRECT_BUILD_DEBUG       (0)
-#define DIRECT_BUILD_DEBUGS      (1)
+#define DIRECT_BUILD_DEBUGS      (0)
 #define DIRECT_BUILD_TRACE       (0)
 #define DIRECT_BUILD_TEXT        (1)
 #define DIRECT_BUILD_GETTID      (1)
